@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name CS43L22-CNZ)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/CS43L22-CNZ.lib)(options "")(descr ""))
+  (lib (name TP4056)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/TP4056.lib)(options "")(descr ""))
+  (lib (name looppedal)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/looppedal.lib)(options "")(descr ""))
+  (lib (name MAX4062EUBT)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/MAX4062EUBT.lib)(options "")(descr ""))
+  (lib (name SJ-3524-SMT-PI)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/SJ-3524-SMT-PI.lib)(options "")(descr ""))
+  (lib (name MAX4468EKAT)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/MAX4468EKAT.lib)(options "")(descr ""))
+  (lib (name M24M02-DRMN6TP)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbol/M24M02-DRMN6TP.lib)(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name CS43L22-CNZ)(type Legacy)(uri ${KIPRJMOD}/Lib/Footprints/CS43L22-CNZ.mod)(options "")(descr ""))
+  (lib (name MAX4062EUBT)(type Legacy)(uri ${KIPRJMOD}/Lib/Footprints/MAX4062EUBT.mod)(options "")(descr ""))
+  (lib (name TP4056)(type Legacy)(uri ${KIPRJMOD}/Lib/Footprints/TP4056.mod)(options "")(descr ""))
+  (lib (name looppedal)(type KiCad)(uri ${KIPRJMOD}/Lib/Footprints/looppedal.pretty)(options "")(descr ""))
+  (lib (name SJ-3524-SMT-PI)(type Legacy)(uri ${KIPRJMOD}/Lib/Footprints/SJ-3524-SMT-PI.mod)(options "")(descr ""))
+  (lib (name MAX4468EKAT)(type Legacy)(uri ${KIPRJMOD}/Lib/Footprints/MAX4468EKAT.mod)(options "")(descr ""))
+)

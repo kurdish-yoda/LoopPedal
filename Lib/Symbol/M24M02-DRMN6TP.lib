@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# M24M02-DRMN6TP
+#
+DEF M24M02-DRMN6TP U 0 40 Y Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "M24M02-DRMN6TP" 0 0 50 H I L BNN
+F2 "SOIC8" 0 0 50 H I L BNN
+F3 "M24M02-DR Series 2 Mb _256 K x 8_ 5.5 V Serial I²C bus EEPROM - SOIC-8" 0 0 50 H I L BNN
+F4 "M24M02-DRMN6TP" 0 0 50 H I L BNN
+F5 "STMicroelectronics" 0 0 50 H I L BNN
+F6 "SO-8 STMicroelectronics" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/stmicroelectronics/M24M02-DRMN6TP/497-11600-1-ND/2747126?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "497-11600-1-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 0 600 0 N
+P 2 0 0 10 0 800 0 0 N
+P 2 0 0 10 600 0 600 800 N
+P 2 0 0 10 600 800 0 800 N
+X NA1 1 -200 700 200 R 40 40 0 0 B
+X NA2 2 -200 500 200 R 40 40 0 0 B
+X E2 3 -200 300 200 R 40 40 0 0 B
+X VSS 4 -200 100 200 R 40 40 0 0 B
+X SDA 5 800 100 200 L 40 40 0 0 B
+X SCL 6 800 300 200 L 40 40 0 0 B
+X WC 7 800 500 200 L 40 40 0 0 B
+X VCC 8 800 700 200 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX4062EUBT
+#
+DEF MAX4062EUBT U 0 40 Y Y 1 L N
+F0 "U" -500 639 50 H V L BNN
+F1 "MAX4062EUBT" -500 -757 50 H V L BNN
+F2 "SOP50P490X110-10N" 0 0 50 H I L BNN
+F3 "uMAX-10 Maxim" 0 0 50 H I L BNN
+F4 "Maxim Integrated" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "MAX4062EUB+" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "Audio Amp Microphone 1-CH Mono Class-AB 10-Pin uMAX" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 600 500 600 N
+P 2 0 0 16 500 600 500 -600 N
+P 2 0 0 16 500 -600 -500 -600 N
+P 2 0 0 16 -500 -600 -500 600 N
+X ~INT/AUX~ 2 -700 300 200 R 40 40 0 0 I 
+X AUX_IN 9 -700 200 200 R 40 40 0 0 I 
+X G1 10 -700 100 200 R 40 40 0 0 I 
+X G2 1 -700 0 200 R 40 40 0 0 I 
+X IN+ 6 -700 -100 200 R 40 40 0 0 I 
+X IN- 7 -700 -200 200 R 40 40 0 0 I 
+X VCC 5 700 500 200 L 40 40 0 0 W 
+X BIAS 4 700 300 200 L 40 40 0 0 O 
+X OUT 3 700 200 200 L 40 40 0 0 O 
+X GND 8 700 -500 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

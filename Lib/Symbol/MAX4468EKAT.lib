@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX4468EKAT
+#
+DEF MAX4468EKAT U 0 40 Y Y 1 L N
+F0 "U" -500 539 50 H V L BNN
+F1 "MAX4468EKAT" -500 -657 50 H V L BNN
+F2 "SOT65P280X145-8N" 0 0 50 H I L BNN
+F3 "Maxim Integrated" 0 0 50 H I L BNN
+F4 "SOT-23-8 Maxim" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "MAX4468EKA+T" 0 0 50 H I L BNN
+F7 "Audio Amp Microphone 1-CH Mono Class-AB 8-Pin SOT-23 T/R" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 500 500 500 N
+P 2 0 0 16 500 500 500 -500 N
+P 2 0 0 16 500 -500 -500 -500 N
+P 2 0 0 16 -500 -500 -500 500 N
+X IN+ 2 -700 200 200 R 40 40 0 0 I 
+X IN- 3 -700 100 200 R 40 40 0 0 I 
+X SHDN 6 -700 -0 200 R 40 40 0 0 I 
+X NC 5 -700 -200 200 R 40 40 0 0 B 
+X VCC 7 700 400 200 L 40 40 0 0 W 
+X MIC_BIAS 4 700 200 200 L 40 40 0 0 O 
+X OUT 8 700 100 200 L 40 40 0 0 O 
+X GND 1 700 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
